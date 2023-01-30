@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "canisters": {
+    "test_timers_backend": {
+      "type": "rust",
+      "package": "test_timers_backend",
+      "candid": "src/test_timers_backend/test_timers_backend.did"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  }
+}
